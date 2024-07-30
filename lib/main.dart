@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'stack2.dart';
+import 'align.dart';
 
 void main() {
   runApp(const MyApp());
