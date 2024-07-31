@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'scrolewiew_paginvation.dart';
+import 'bottom_navigator_bar.dart';
 
 void main() {
   runApp(const MyApp());
