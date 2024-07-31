@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class column_row extends StatefulWidget {
+  const column_row({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<column_row> createState() => _column_rowState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _column_rowState extends State<column_row> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -4,14 +4,14 @@ import 'package:provider/provider.dart';
 
 import '../model/album.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class Album_provider_view extends StatefulWidget {
+  const Album_provider_view({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<Album_provider_view> createState() => _Album_provider_viewState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _Album_provider_viewState extends State<Album_provider_view> {
 
   late List<Album> albumList;
 

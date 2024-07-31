@@ -5,7 +5,7 @@ class SuccessPage extends StatelessWidget {
   Widget build(BuildContext context){
 
     final Map<String, String> args = ModalRoute.of(context)!.settings.arguments
-        as Map<String, String>;
+    as Map<String, String>;
 
 
     return Scaffold(
@@ -19,10 +19,10 @@ class SuccessPage extends StatelessWidget {
             Text("email :${args['email']}"),
             const SizedBox(height: 20),
             ElevatedButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: const Text("홈으로 돌아가기"),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("홈으로 돌아가기"),
             ),
           ],
         ),

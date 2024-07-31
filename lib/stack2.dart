@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class stack2 extends StatefulWidget {
+  const stack2({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<stack2> createState() => _stack2State();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _stack2State extends State<stack2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

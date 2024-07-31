@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class stack extends StatefulWidget {
+  const stack({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<stack> createState() => _stackState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _stackState extends State<stack> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("안녕하세요"),
-      ),
+        appBar: AppBar(
+          title: const Text("안녕하세요"),
+        ),
         body: Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
@@ -45,6 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         )
-      );
-    }
+    );
+  }
 }
